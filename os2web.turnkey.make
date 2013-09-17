@@ -18,3 +18,6 @@ projects[homebox][version] = "2.0-beta6"
 
 projects[l10n_update][subdir] = "contrib"
 projects[l10n_update][version] = "1.0-beta3"
+
+projects[menu_block][subdir] = "contrib"
+projects[menu_block][version] = "2.3"
