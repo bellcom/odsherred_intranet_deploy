@@ -15,3 +15,6 @@ projects[views_tree][version] = "2.0"
 
 projects[homebox][subdir] = "contrib"
 projects[homebox][version] = "2.0-beta6"
+
+projects[l10n_update][subdir] = "contrib"
+projects[l10n_update][version] = "1.0-beta3"
