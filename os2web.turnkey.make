@@ -12,3 +12,6 @@ projects[hierarchical_select][version] = "3.0-alpha6"
 
 projects[views_tree][subdir] = "contrib"
 projects[views_tree][version] = "2.0"
+
+projects[homebox][subdir] = "contrib"
+projects[homebox][version] = "2.0-beta6"
