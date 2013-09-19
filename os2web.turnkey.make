@@ -21,3 +21,9 @@ projects[l10n_update][version] = "1.0-beta3"
 
 projects[menu_block][subdir] = "contrib"
 projects[menu_block][version] = "2.3"
+
+; OS2Web iFrame Field
+projects[odsherred_intranet_theme][type] = "theme"
+projects[odsherred_intranet_theme][download][type] = "git"
+projects[odsherred_intranet_theme][download][branch] = "master"
+projects[odsherred_intranet_theme][download][url] = "https://github.com/bellcom/odsherred_intranet_theme.git"
