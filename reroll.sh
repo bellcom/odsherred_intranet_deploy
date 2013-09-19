@@ -36,7 +36,7 @@ DRUPAL_ROOT=$(dirname `pwd`)/public_html
 
 mkdir -p build/$BUILD_DIR
 
-drush make --no-gitinfofile -y --no-core --contrib-destination=build/$BUILD_DIR $PROFILE_SRC.make
+drush make --no-gitinfofile -y --no-core --working-copy --contrib-destination=build/$BUILD_DIR $PROFILE_SRC.make
 
 ### Code below can be in seperate file. source execute file from here. ###
 # . ./deploy.sh

@@ -22,6 +22,10 @@ projects[l10n_update][version] = "1.0-beta3"
 projects[menu_block][subdir] = "contrib"
 projects[menu_block][version] = "2.3"
 
+projects[adaptivetheme][type] = "theme"
+projects[adaptivetheme][subdir] = "contrib"
+projects[adaptivetheme][version] = "3.1"
+
 ; OS2Web iFrame Field
 projects[odsherred_intranet_theme][type] = "theme"
 projects[odsherred_intranet_theme][download][type] = "git"
