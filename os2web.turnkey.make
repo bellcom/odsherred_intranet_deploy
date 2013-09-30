@@ -1,6 +1,9 @@
 api = 2
 core = 7.x
 
+projects[panels][subdir] = "contrib"
+projects[panels][version] = "3.3"
+
 ;; Base of the main make file
 includes[base] = "os2web.core.make"
 
@@ -15,6 +18,7 @@ projects[views_tree][version] = "2.0"
 
 projects[homebox][subdir] = "contrib"
 projects[homebox][version] = "2.0-beta6"
+projects[homebox][patch][return-to-destination] = "patches/return-to-destination.homebox.patch"
 
 projects[l10n_update][subdir] = "contrib"
 projects[l10n_update][version] = "1.0-beta3"
