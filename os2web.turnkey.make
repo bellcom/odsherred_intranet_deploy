@@ -81,3 +81,9 @@ projects[os2intra_canteen][type] = "module"
 projects[os2intra_canteen][download][type] = "git"
 projects[os2intra_canteen][download][branch] = "master"
 projects[os2intra_canteen][download][url] = "https://github.com/bellcom/os2intra_canteen.git"
+
+;os2intra birthday block
+projects[os2intra_birthday_block][type] = "module"
+projects[os2intra_birthday_block][download][type] = "git"
+projects[os2intra_birthday_block][download][branch] = "master"
+projects[os2intra_birthday_block][download][url] = "https://github.com/bellcom/os2intra_birthday_block.git"
