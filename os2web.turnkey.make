@@ -87,3 +87,9 @@ projects[os2intra_birthday_block][type] = "module"
 projects[os2intra_birthday_block][download][type] = "git"
 projects[os2intra_birthday_block][download][branch] = "master"
 projects[os2intra_birthday_block][download][url] = "https://github.com/bellcom/os2intra_birthday_block.git"
+
+;spotbox
+projects[spotbox][type] = "module"
+projects[spotbox][download][type] = "git"
+projects[spotbox][download][branch] = "master"
+projects[spotbox][download][url] = "https://github.com/bellcom/spotbox.git"
