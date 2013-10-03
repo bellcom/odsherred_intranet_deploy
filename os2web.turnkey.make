@@ -29,6 +29,12 @@ projects[menu_block][version] = "2.3"
 projects[menu_icons][subdir] = "contrib"
 projects[menu_icons][version] = "3.0-beta4"
 
+projects[linkit][subdir] = "contrib"
+projects[linkit][version] = "3.0"
+
+projects[taxonomy_access][subdir] = "contrib"
+projects[taxonomy_access][version] = "1.0-rc1"
+
 projects[adaptivetheme][type] = "theme"
 projects[adaptivetheme][subdir] = "contrib"
 projects[adaptivetheme][version] = "3.1"
