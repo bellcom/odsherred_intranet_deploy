@@ -80,3 +80,9 @@ projects[os2intra_canteen][type] = "module"
 projects[os2intra_canteen][download][type] = "git"
 projects[os2intra_canteen][download][branch] = "master"
 projects[os2intra_canteen][download][url] = "https://github.com/bellcom/os2intra_canteen.git"
+
+;os2intra canteen
+projects[spotbox][type] = "module"
+projects[spotbox][download][type] = "git"
+projects[spotbox][download][branch] = "master"
+projects[spotbox][download][url] = "https://github.com/bellcom/spotbox.git"
