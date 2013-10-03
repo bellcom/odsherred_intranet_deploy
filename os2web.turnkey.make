@@ -40,10 +40,11 @@ projects[adaptivetheme][subdir] = "contrib"
 projects[adaptivetheme][version] = "3.1"
 
 ; OS2Web iFrame Field
-projects[odsherred_intranet_theme][type] = "theme"
-projects[odsherred_intranet_theme][download][type] = "git"
-projects[odsherred_intranet_theme][download][branch] = "master"
-projects[odsherred_intranet_theme][download][url] = "https://github.com/bellcom/odsherred_intranet_theme.git"
+projects[intranet_theme][type] = "theme"
+projects[intranet_theme][download][type] = "git"
+projects[intranet_theme][download][branch] = "master"
+projects[intranet_theme][download][url] = "https://github.com/bellcom/odsherred_intranet_theme.git"
+projects[intranet_theme][directory_name] "intranet_theme"
 
 ; Nodebasket
 projects[node_basket][type] = "module"
