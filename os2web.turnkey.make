@@ -58,7 +58,19 @@ projects[os2intra_base][download][branch] = "master"
 projects[os2intra_base][download][url] = "https://github.com/bellcom/os2intra_base.git"
 
 ;os2intra user menu
-projects[os2intra_base][type] = "module"
-projects[os2intra_base][download][type] = "git"
-projects[os2intra_base][download][branch] = "master"
-projects[os2intra_base][download][url] = "https://github.com/bellcom/os2web_intra_user_menu.git"
+projects[os2intra_user_menu][type] = "module"
+projects[os2intra_user_menu][download][type] = "git"
+projects[os2intra_user_menu][download][branch] = "master"
+projects[os2intra_user_menu][download][url] = "https://github.com/bellcom/os2web_intra_user_menu.git"
+
+;os2intra message notify
+projects[os2intra_message_notify][type] = "module"
+projects[os2intra_message_notify][download][type] = "git"
+projects[os2intra_message_notify][download][branch] = "master"
+projects[os2intra_message_notify][download][url] = "https://github.com/bellcom/os2intra_message_notify.git"
+
+;os2intra canteen
+projects[os2intra_canteen][type] = "module"
+projects[os2intra_canteen][download][type] = "git"
+projects[os2intra_canteen][download][branch] = "master"
+projects[os2intra_canteen][download][url] = "https://github.com/bellcom/os2intra_canteen.git"
