@@ -64,7 +64,7 @@ projects[os2intra_base][download][branch] = "master"
 projects[os2intra_base][download][url] = "https://github.com/bellcom/os2intra_base.git"
 
 ;os2intra user menu
-projects[os2intra_base][type] = "module"
-projects[os2intra_base][download][type] = "git"
-projects[os2intra_base][download][branch] = "master"
-projects[os2intra_base][download][url] = "https://github.com/bellcom/os2web_intra_user_menu.git"
+projects[os2web_intra_user_menu][type] = "module"
+projects[os2web_intra_user_menu][download][type] = "git"
+projects[os2web_intra_user_menu][download][branch] = "master"
+projects[os2web_intra_user_menu][download][url] = "https://github.com/bellcom/os2web_intra_user_menu.git"
