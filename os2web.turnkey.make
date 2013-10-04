@@ -93,3 +93,12 @@ projects[spotbox][type] = "module"
 projects[spotbox][download][type] = "git"
 projects[spotbox][download][branch] = "master"
 projects[spotbox][download][url] = "https://github.com/bellcom/spotbox.git"
+
+;os2intra widgets
+projects[os2intra_widgets][type] = "module"
+projects[os2intra_widgets][download][type] = "git"
+projects[os2intra_widgets][download][branch] = "master"
+projects[os2intra_widgets][download][url] = "https://github.com/bellcom/os2intra_widgets.git"
+
+projects[media][subdir] = "contrib"
+projects[media][version] = "2.0-alpha2"
