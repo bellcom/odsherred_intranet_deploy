@@ -18,6 +18,7 @@ projects[views_tree][version] = "2.0"
 
 projects[homebox][subdir] = "contrib"
 projects[homebox][version] = "2.0-beta6"
+projects[homebox][patch][1253696] = "http://drupal.org/files/homebox-mysql_warning-strict_warning-1253696-12.patch"
 projects[homebox][patch][return-to-destination] = "patches/return-to-destination.homebox.patch"
 
 projects[l10n_update][subdir] = "contrib"
