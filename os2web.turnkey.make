@@ -1,6 +1,9 @@
 api = 2
 core = 7.x
 
+projects[file_entity][subdir] = "contrib"
+projects[file_entity][version] = "2.0-alpha2"
+
 projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.3"
 
