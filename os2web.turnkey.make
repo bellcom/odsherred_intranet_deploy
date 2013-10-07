@@ -104,5 +104,17 @@ projects[os2intra_widgets][download][type] = "git"
 projects[os2intra_widgets][download][branch] = "master"
 projects[os2intra_widgets][download][url] = "https://github.com/bellcom/os2intra_widgets.git"
 
+;os2intra kle
+projects[os2intra_kle][type] = "module"
+projects[os2intra_kle][download][type] = "git"
+projects[os2intra_kle][download][branch] = "master"
+projects[os2intra_kle][download][url] = "https://github.com/bellcom/os2intra_kle.git"
+
+;os2intra kle
+projects[os2intra_outdated_flag][type] = "module"
+projects[os2intra_outdated_flag][download][type] = "git"
+projects[os2intra_outdated_flag][download][branch] = "master"
+projects[os2intra_outdated_flag][download][url] = "https://github.com/bellcom/os2intra_outdated_flag.git"
+
 projects[media][subdir] = "contrib"
 projects[media][version] = "2.0-alpha2"
