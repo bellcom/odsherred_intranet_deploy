@@ -119,12 +119,10 @@ projects[os2intra_outdated_flag][download][url] = "https://github.com/bellcom/os
 projects[media][subdir] = "contrib"
 projects[media][version] = "2.0-alpha2"
 
-libraries[dompdf][download][type] = "git"
-libraries[dompdf][download][url] = "https://github.com/dompdf/dompdf.git"
-libraries[dompdf][download][revision] = "master"
-libraries[dompdf][destination] = "libraries"
-
 libraries[tcpdf][download][type] = "get"
 libraries[tcpdf][download][url] = "http://sourceforge.net/projects/tcpdf/files/tcpdf_6_0_038.zip/download"
 libraries[tcpdf][directory_name] = "tcpdf"
 libraries[tcpdf][destination] = "libraries"
+
+projects[fontyourface][subdir] = "contrib"
+projects[fontyourface][version] = "2.8"
