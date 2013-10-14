@@ -4,6 +4,9 @@ core = 7.x
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-alpha2"
 
+projects[field_group] = "contrib"
+projects[field_group][version] = "1.3"
+
 projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.3"
 projects[panels][patch][1803720] = "https://drupal.org/files/panels-unsupported-operand-types-1803720-4.patch"
@@ -35,6 +38,9 @@ projects[menu_block][version] = "2.3"
 projects[menu_icons][subdir] = "contrib"
 projects[menu_icons][version] = "3.0-beta4"
 
+projects[nice_menus][subdir] = "contrib"
+projects[nice_menus][version] = "2.5"
+
 projects[linkit][subdir] = "contrib"
 projects[linkit][version] = "3.0"
 
@@ -46,7 +52,6 @@ projects[adaptivetheme][subdir] = "contrib"
 projects[adaptivetheme][version] = "3.1"
 projects[adaptivetheme][patch][2018081] = "http://drupal.org/files/remove-comment-creation-link-2018081-1.patch"
 
-; OS2Web iFrame Field
 projects[intranet_theme][type] = "theme"
 projects[intranet_theme][download][type] = "git"
 projects[intranet_theme][download][branch] = "master"
@@ -107,13 +112,19 @@ projects[os2intra_widgets][download][type] = "git"
 projects[os2intra_widgets][download][branch] = "master"
 projects[os2intra_widgets][download][url] = "https://github.com/bellcom/os2intra_widgets.git"
 
+;os2intra menubar 
+projects[os2intra_menubar][type] = "module"
+projects[os2intra_menubar][download][type] = "git"
+projects[os2intra_menubar][download][branch] = "master"
+projects[os2intra_menubar][download][url] = "https://github.com/bellcom/os2intra_menubar.git"
+
 ;os2intra kle
 projects[os2intra_kle][type] = "module"
 projects[os2intra_kle][download][type] = "git"
 projects[os2intra_kle][download][branch] = "master"
 projects[os2intra_kle][download][url] = "https://github.com/bellcom/os2intra_kle.git"
 
-;os2intra kle
+;os2intra oudated flags
 projects[os2intra_outdated_flag][type] = "module"
 projects[os2intra_outdated_flag][download][type] = "git"
 projects[os2intra_outdated_flag][download][branch] = "master"
