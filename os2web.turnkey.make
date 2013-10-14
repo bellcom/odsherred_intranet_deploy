@@ -6,6 +6,7 @@ projects[file_entity][version] = "2.0-alpha2"
 
 projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.3"
+projects[panels][patch][1803720] = "https://drupal.org/files/panels-unsupported-operand-types-1803720-4.patch"
 
 ;; Base of the main make file
 includes[base] = "os2web.core.make"
@@ -23,6 +24,7 @@ projects[homebox][subdir] = "contrib"
 projects[homebox][version] = "2.0-beta6"
 projects[homebox][patch][1253696] = "http://drupal.org/files/homebox-mysql_warning-strict_warning-1253696-12.patch"
 projects[homebox][patch][return-to-destination] = "patches/return-to-destination.homebox.patch"
+projects[homebox][patch][enable-add-one-time] = "patches/enable-add-one-time.homebox.patch"
 
 projects[l10n_update][subdir] = "contrib"
 projects[l10n_update][version] = "1.0-beta3"
