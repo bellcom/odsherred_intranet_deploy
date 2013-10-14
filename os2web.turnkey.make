@@ -44,6 +44,7 @@ projects[taxonomy_access][version] = "1.0-rc1"
 projects[adaptivetheme][type] = "theme"
 projects[adaptivetheme][subdir] = "contrib"
 projects[adaptivetheme][version] = "3.1"
+projects[adaptivetheme][patch][2018081] = "http://drupal.org/files/remove-comment-creation-link-2018081-1.patch"
 
 ; OS2Web iFrame Field
 projects[intranet_theme][type] = "theme"

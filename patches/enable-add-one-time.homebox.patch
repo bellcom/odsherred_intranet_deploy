@@ -1,8 +1,8 @@
 diff --git a/homebox.module b/homebox.module
-index 53bcff1..dfdc624 100644
+index 53bcff1..8edff63 100644
 --- a/homebox.module
 +++ b/homebox.module
-@@ -389,7 +389,7 @@ function homebox_build($page) {
+@@ -389,12 +389,12 @@ function homebox_build($page) {
        foreach ($blocks as $delta => $info) {
          $options = array();
          if (isset($info['used'])) {
@@ -11,6 +11,12 @@ index 53bcff1..dfdc624 100644
          }
          $add_links[] = homebox_add_link($info['info'], $page, $module, $delta, $options);
        }
+     }
+-    $add_links['restore'] = l(t('Restore to defaults'), 'homebox/' . $page->name . '/restore', array('attributes' => array('class' => 'restore')));
++    $add_links['restore'] = l(t('Restore to defaults'), 'homebox/' . $page->name . '/restore', array('attributes' => array('class' => 'restore'), 'query' => array('destination' => request_path())));
+     $add_links = theme('item_list', array('items' => $add_links, 'title' => NULL, 'type' => 'ul', 'attributes' => array('class' => 'clear-block')));
+ 
+     $form = drupal_get_form('homebox_save_form', $page);
 @@ -410,7 +410,7 @@ function homebox_build($page) {
      $num_regions = count($regions);
      for ($i = 1; $i <= $num_regions; $i++) {
