@@ -9,7 +9,7 @@ projects[field_group][version] = "1.3"
 
 projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.3"
-projects[panels][patch][1803720] = "https://drupal.org/files/panels-unsupported-operand-types-1803720-4.patch"
+projects[panels][patch][1803720] = "http://drupal.org/files/panels-unsupported-operand-types-1803720-4.patch"
 
 ;; Base of the main make file
 includes[base] = "os2web.core.make"
