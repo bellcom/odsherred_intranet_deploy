@@ -112,7 +112,7 @@ projects[os2intra_widgets][download][type] = "git"
 projects[os2intra_widgets][download][branch] = "master"
 projects[os2intra_widgets][download][url] = "https://github.com/bellcom/os2intra_widgets.git"
 
-;os2intra menubar 
+;os2intra menubar
 projects[os2intra_menubar][type] = "module"
 projects[os2intra_menubar][download][type] = "git"
 projects[os2intra_menubar][download][branch] = "master"
@@ -140,3 +140,6 @@ libraries[tcpdf][destination] = "libraries"
 
 projects[fontyourface][subdir] = "contrib"
 projects[fontyourface][version] = "2.8"
+
+projects[wysiwyg][subdir] = "contrib"
+projects[wysiwyg][version] = "2.2"
