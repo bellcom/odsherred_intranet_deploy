@@ -50,7 +50,6 @@ projects[taxonomy_access][version] = "1.0-rc1"
 projects[adaptivetheme][type] = "theme"
 projects[adaptivetheme][subdir] = "contrib"
 projects[adaptivetheme][version] = "3.1"
-projects[adaptivetheme][patch][2018081] = "http://drupal.org/files/remove-comment-creation-link-2018081-1.patch"
 
 projects[intranet_theme][type] = "theme"
 projects[intranet_theme][download][type] = "git"
@@ -143,3 +142,7 @@ projects[fontyourface][version] = "2.8"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
+
+projects[extlink][subdir] = "contrib"
+projects[extlink][version] = "1.13"
+
