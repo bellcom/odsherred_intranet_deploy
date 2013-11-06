@@ -50,7 +50,6 @@ projects[taxonomy_access][version] = "1.0-rc1"
 projects[adaptivetheme][type] = "theme"
 projects[adaptivetheme][subdir] = "contrib"
 projects[adaptivetheme][version] = "3.1"
-projects[adaptivetheme][patch][2018081] = "http://drupal.org/files/remove-comment-creation-link-2018081-1.patch"
 
 projects[intranet_theme][type] = "theme"
 projects[intranet_theme][download][type] = "git"
@@ -129,6 +128,12 @@ projects[os2intra_outdated_flag][type] = "module"
 projects[os2intra_outdated_flag][download][type] = "git"
 projects[os2intra_outdated_flag][download][branch] = "master"
 projects[os2intra_outdated_flag][download][url] = "https://github.com/bellcom/os2intra_outdated_flag.git"
+
+;os2intra userimport
+projects[os2intra_user_import][type] = "module"
+projects[os2intra_user_import][download][type] = "git"
+projects[os2intra_user_import][download][branch] = "master"
+projects[os2intra_user_import][download][url] = "https://github.com/bellcom/os2intra_user_import.git"
 
 projects[media][subdir] = "contrib"
 projects[media][version] = "2.0-alpha2"
