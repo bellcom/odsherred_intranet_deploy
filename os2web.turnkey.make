@@ -148,3 +148,6 @@ projects[fontyourface][version] = "2.8"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
+
+projects[scheduler][subdir] = "contrib"
+projects[scheduler][version] = "1.1"
