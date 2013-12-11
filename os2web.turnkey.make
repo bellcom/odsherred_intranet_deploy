@@ -151,3 +151,6 @@ projects[wysiwyg][version] = "2.2"
 
 projects[scheduler][subdir] = "contrib"
 projects[scheduler][version] = "1.1"
+
+projects[extlink][subdir] = "contrib"
+projects[extlink][version] = "1.13"
