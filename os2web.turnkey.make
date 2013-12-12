@@ -154,3 +154,9 @@ projects[scheduler][version] = "1.1"
 
 projects[extlink][subdir] = "contrib"
 projects[extlink][version] = "1.13"
+
+projects[i18n][subdir] = "contrib"
+projects[i18n][version] = "1.10"
+
+projects[variable][subdir] = "contrib"
+projects[variable][version] = "2.3"
