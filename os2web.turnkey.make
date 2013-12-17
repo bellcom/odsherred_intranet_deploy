@@ -50,6 +50,9 @@ projects[linkit][version] = "3.0"
 projects[taxonomy_access][subdir] = "contrib"
 projects[taxonomy_access][version] = "1.0-rc1"
 
+projects[taxonomy_menu][subdir] = "contrib"
+projects[taxonomy_menu][version] = "1.4"
+
 projects[adaptivetheme][type] = "theme"
 projects[adaptivetheme][subdir] = "contrib"
 projects[adaptivetheme][version] = "3.1"
