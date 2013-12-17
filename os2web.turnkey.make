@@ -41,6 +41,9 @@ projects[menu_icons][version] = "3.0-beta4"
 projects[nice_menus][subdir] = "contrib"
 projects[nice_menus][version] = "2.5"
 
+projects[node_clone][subdir] = "contrib"
+projects[node_clone][version] = "1.0-rc2"
+
 projects[linkit][subdir] = "contrib"
 projects[linkit][version] = "3.0"
 
