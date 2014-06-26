@@ -169,3 +169,6 @@ projects[variable][version] = "2.3"
 
 projects[facetapi_i18n][subdir] = "contrib"
 projects[facetapi_i18n][version] = "1.0-beta2"
+
+projects[bigmenu][subdir] = "contrib"
+projects[bigmenu][version] = "1.2"
